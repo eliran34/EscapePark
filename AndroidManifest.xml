@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cabeloni.epcomp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".startv">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".groups" />
+        <activity android:name=".stage2" />
+        <activity android:name=".stage4" />
+        <activity android:name=".stage5" />
+        <activity android:name=".stage1" />
+        <activity android:name=".stage3" />
+        <activity android:name=".stage7" />
+        <activity android:name=".global" />
+        <activity android:name=".madrih" />
+        <activity android:name=".MyFragment" />
+        <activity android:name=".maavar" />
+        <activity android:name=".sof" />
+        <activity android:name=".sof2" />
+        <activity android:name=".startv2" />
+        <activity android:name=".stage5b" />
+        <activity android:name=".stage5c" />
+        <activity android:name=".stage5d" />
+        <activity android:name=".stage5e" />
+        <activity android:name=".stage6" />
+        <activity android:name=".stats"
+            android:theme="@style/AppTheme.CustomTheme"/>
+    </application>
+
+</manifest>
